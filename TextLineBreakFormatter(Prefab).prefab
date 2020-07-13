@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7560945424193237994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7560945424193237995}
+  - component: {fileID: 7560945424193237997}
+  - component: {fileID: 7560945424193237996}
+  - component: {fileID: 7560945424193237998}
+  m_Layer: 5
+  m_Name: TextLineBreakFormatter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7560945424193237995
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560945424193237994}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -800, y: -400}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7560945424193237997
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560945424193237994}
+  m_CullTransparentMesh: 0
+--- !u!114 &7560945424193237996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560945424193237994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 07006284d0d124d46aa6a705a7fa304f, type: 3}
+    m_FontSize: 32
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u827E\u8389\uFF1A\u5728\u6CE2\u58EB\u9813\u7684\u6642\u5019\uFF0C\u6211\u88AB\u54AC\u7684\u6642\u5019\uFF0C\u6211\u4E0D\u662F\u4E00\u500B\u4EBA\u7684\u3002\n\n\u827E\u8389\uFF1A\u6211\u6700\u597D\u7684\u670B\u53CB\u4E5F\u5728\u5834\u3002\u5979\u4E5F\u88AB\u54AC\u4E86\u3002\u6211\u5011\u4E0D\u77E5\u9053\u8A72\u600E\u9EBC\u8FA6\u3002\u6240\u4EE5\uFF0C\u5979\u5C31\u8AAA\uFF1A\u300C\u6211\u5011\u5148\u975C\u89C0\u5176\u8B8A\uFF0C\u6216\u8A31\u4E00\u8D77\u8B8A\u6210\u760B\u5B50\u4E5F\u5F88\u8A69\u610F\u5440\u3002\u300D\u6211\u9084\u5728\u7B49\u8F2A\u5230\u6211\u7684\u90A3\u523B\u3002\u5979\u7684\u540D\u5B57\u662F\u840A\u8389\uFF0C\u5979\u662F\u7B2C\u4E00\u500B\u72A7\u7272\u8005\u3002\u63A5\u8457\u5C31\u662F\u6CF0\u7D72\uFF0C\u7136\u5F8C\u662F\u5C71\u59C6\u3002\n\n\u55AC\u723E\uFF1A\u9019\u90FD\u4E0D\u662F\u4F60\u7684\u932F\uFF0D\n\n\u827E\u8389\uFF1A\u4E0D\uFF0C\u4F60\u4E0D\u61C2\u3002\n\n\u55AC\u723E\uFF1A\u6211\u4E5F\u662F\u70BA\u4E86\u751F\u5B58\u4E0B\u53BB\u6240\u4EE5\u4E00\u76F4\u52AA\u529B\u596E\u9B25\u3002\u800C\u4F60\u22EF\u22EF\uFF08\u64AB\u6478\u624B\u9336\uFF09\u4E0D\u8AD6\u5982\u4F55\uFF0C\u4F60\u90FD\u5F97\u7E7C\u7E8C\u627E\u5230\u596E\u9B25\u7684\u76EE\u6A19\u3002"
+--- !u!114 &7560945424193237998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560945424193237994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b558f795871e49f684d1c456d2d9bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToReformat: {fileID: 7560945424193237996}
+  avoidAtStartOfLine: 0cff2c00023001ff1fff1aff3b000d300f303dff5dff1eff0b3009300dffef22
+  leadingCharacters: 
+  leadingCharactersIndex: 
+  endingCharacters: 
+  endingCharactersIndex: 
